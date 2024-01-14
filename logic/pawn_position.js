@@ -30,5 +30,6 @@ for(const k of pownpositionwhite){
             steps.push(document.getElementById(id[0]-change))
         }
            console.log(steps);
+           console.log(steps);
     })
 }
