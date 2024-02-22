@@ -12,5 +12,9 @@ for(const i of allsquare){
         document.getElementById(idofelement).style.backgroundColor="yellow";
         clickeditem.push(i)
     }
+    if(innerhtml.includes("black") || innerhtml.includes("white")){
+        document.getElementById(idofelement).style.backgroundColor="yellow";
+        clickeditem.push(i)
+    }
    })
 }
