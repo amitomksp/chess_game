@@ -6,8 +6,10 @@
 
 .dad-container {
     display: flex;
-    align-items: center;
+    align-items: center; 
+     /* //vertical center */
     justify-content: center;
+       /* horizontal centre */
     margin-top: 2rem;
 
 }
@@ -16,6 +18,18 @@
     background-color: #EEEED2;
     width: 70px;
     height: 70px;
+}
+.circle {
+    width: 30%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
